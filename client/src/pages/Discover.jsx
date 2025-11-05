@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://tastetrail-backend.onrender.com/api'
 
 // ✅ Fallback images
 const fallbackImages = [

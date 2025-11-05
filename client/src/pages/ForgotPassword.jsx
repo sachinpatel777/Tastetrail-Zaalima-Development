@@ -13,7 +13,7 @@ export default function ForgotPassword() {
     setMessage('')
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/forgot-password', {
+      const response = await axios.post('https://tastetrail-backend.onrender.com/api/auth/forgot-password', {
         email
       })
       setMessage({ type: 'success', text: response.data.message || 'Password reset email sent successfully!' })

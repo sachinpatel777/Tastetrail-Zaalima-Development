@@ -10,7 +10,7 @@ import Profile from './pages/Profile.jsx'
 import ForgotPassword from './pages/ForgotPassword.jsx'
 import Admin from './pages/Admin.jsx'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://tastetrail-backend.onrender.com/api'
 
 function Header() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
