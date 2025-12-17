@@ -91,7 +91,7 @@ export default function Discover() {
   }
 
   return (
-    <div className="container">
+    <div className="container discover-page">
       {/* Header */}
       <div style={{
         display: 'flex',
@@ -99,7 +99,9 @@ export default function Discover() {
         alignItems: 'center',
         marginBottom: '2rem'
       }}>
-        <h1 className="section-title">Discover Recipes</h1>
+        
+        <h1>Discover Recipes</h1>
+        
         <Link to="/add-recipe" className="btn btn-primary">
           Add Recipe
         </Link>
